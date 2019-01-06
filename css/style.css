@@ -12,8 +12,13 @@
 
 h1 {
     font-weight: 200;
-    
-    font-size: 3.5rem;
+	font-size: 3.5rem;
+	font-family: 'Rubik', sans-serif;
+}
+
+h2 {
+	font-family: 'Baloo', cursive;
+	font-size: 50px;
 }
 
 .fab {
@@ -24,7 +29,7 @@ h1 {
 	padding: 10px;
 }
 
-body{
+#showcase{
 	margin:0;
 	padding:0;
     background:url('https://static.tumblr.com/03fbbc566b081016810402488936fbae/pqpk3dn/MRSmlzpj3/tumblr_static_bg3.png') repeat 0 0;
@@ -34,15 +39,6 @@ body{
 	-o-animation: 10s linear 0s normal none infinite animate;
 	animation: 10s linear 0s normal none infinite animate;
  
-}
-
-h2 {
-	font-family: 'Baloo', cursive;
-	font-size: 50px;
-}
-
-h1 {
-	font-family: 'Rubik', sans-serif;
 }
  
 @-webkit-keyframes animate {
@@ -92,10 +88,13 @@ h1 {
 
 .info-header {
 	width: 50%;
-	margin: auto;
-	border-bottom: 1px #ddd solid;
+	margin: auto;	
 }
 
 .mb-resp {
 	margin-bottom: 1rem;
 } 
+
+#explore-section, #contactMe {
+	background: #ebedea;
+}
