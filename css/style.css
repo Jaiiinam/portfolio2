@@ -29,10 +29,10 @@ h2 {
 	padding: 10px;
 }
 
-#showcase{
+#home{
 	margin:0;
 	padding:0;
-    background:url('https://static.tumblr.com/03fbbc566b081016810402488936fbae/pqpk3dn/MRSmlzpj3/tumblr_static_bg3.png') repeat 0 0;
+    background:url('../img/tumblr_static_bg3.png') repeat 0 0;
 	-webkit-animation: 10s linear 0s normal none infinite animate;
 	-moz-animation: 10s linear 0s normal none infinite animate;
 	-ms-animation: 10s linear 0s normal none infinite animate;
@@ -95,7 +95,7 @@ h2 {
 	margin-bottom: 1rem;
 } 
 
-#explore-section, #portfolio, #footer {
+#about, #portfolio, #footer {
 	background: #ebedea;
 }
 
